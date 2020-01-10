@@ -14,7 +14,7 @@ public class coneccion {
     try {
         
         Class.forName("net.ucanaccess.jobc.UcanaccessDriver");
-        con=DriverManager.getConnection("jdbc:ucanaccess://C://PROYECTO_PIENSA/PIS.accdb");
+        con=DriverManager.getConnection("jdbc:ucanaccess://C:/PROYECTO_PIENSA/PIS.accdb");
         JOptionPane.showMessageDialog(null, "LA BASE DE DATOS FUE CONECTADA CORRRECTAMENTE");
     } catch (HeadlessException | ClassNotFoundException | SQLException e) {
         JOptionPane.showMessageDialog(null, "LA BASE DE DATOS NO SE CONECTO CORRRECTAMENTE");
