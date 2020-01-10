@@ -13,11 +13,11 @@ public class coneccion {
     public Connection conectar(){
     try {
         
-        Class.forName("net.ucanaccess.jobc.UcanaccessDriver");
-        con=DriverManager.getConnection("jdbc:ucanaccess://c:/PROYECTO_PIENSA/PIS.accdb");
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+        con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\zapat\\OneDrive\\Documentos\\NetBeansProjects\\ProyectoPIS\\PIS.accdb");
         JOptionPane.showMessageDialog(null, "LA BASE DE DATOS FUE CONECTADA CORRRECTAMENTE");
     } catch (HeadlessException | ClassNotFoundException | SQLException e) {
-        JOptionPane.showMessageDialog(null, "LA BASE DE DATOS NO SE CONECTO CORRRECTAMENTE");
+        JOptionPane.showMessageDialog(null, "NO TIENE CONECCION CON LA BASE DE DATOS ");
 
     }
     return con;
