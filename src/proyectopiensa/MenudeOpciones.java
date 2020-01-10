@@ -27,7 +27,7 @@ public class MenudeOpciones extends javax.swing.JFrame {
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(menu.getWidth(), menu.getHeight(), Image.SCALE_DEFAULT));
                 menu.setIcon(id);
                 

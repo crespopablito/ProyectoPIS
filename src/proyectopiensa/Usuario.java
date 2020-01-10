@@ -9,7 +9,7 @@ import javax.swing.JOptionPane;
 
 public class Usuario extends javax.swing.JFrame {
 
-   int con = 1;
+   int con;
     
     public Usuario() {
         
@@ -18,7 +18,7 @@ public class Usuario extends javax.swing.JFrame {
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(foto.getWidth(), foto.getHeight(), Image.SCALE_DEFAULT));
                 foto.setIcon(id);
                 

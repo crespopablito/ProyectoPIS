@@ -21,7 +21,7 @@ public class InicioSistema extends javax.swing.JFrame {
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(lblIncio.getWidth(), lblIncio.getHeight(), Image.SCALE_DEFAULT));
                 lblIncio.setIcon(id);
                 

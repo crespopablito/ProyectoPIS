@@ -31,7 +31,7 @@ public class RegistroCliente extends javax.swing.JFrame {
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(lblfotocliente.getWidth(), lblfotocliente.getHeight(), Image.SCALE_DEFAULT));
                 lblfotocliente.setIcon(id);
                 
@@ -114,7 +114,7 @@ public class RegistroCliente extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
         jPanel1.setForeground(new java.awt.Color(255, 204, 204));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N

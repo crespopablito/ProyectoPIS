@@ -38,7 +38,7 @@ public class ImpresionVentas extends javax.swing.JFrame implements Printable{
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(logotipo.getWidth(), logotipo.getHeight(), Image.SCALE_DEFAULT));
                 logotipo.setIcon(id);
                 
@@ -151,7 +151,7 @@ lbltotal.setText(String.valueOf(Math.round(total)));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        recibo.setBackground(new java.awt.Color(255, 255, 255));
+        recibo.setBackground(new java.awt.Color(0, 0, 0));
 
         jScrollPane1.setViewportView(Tabla);
 

@@ -47,7 +47,7 @@ public class ImpresionCompras extends javax.swing.JFrame implements Printable{
         TimerTask m = new TimerTask(){
             @Override
         public void run(){
-                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.jpg"));
+                ImageIcon cd = new ImageIcon(getClass().getResource("/logotipoCellSolutions/cellsolutions.png"));
                 ImageIcon id = new ImageIcon(cd.getImage().getScaledInstance(imag.getWidth(), imag.getHeight(), Image.SCALE_DEFAULT));
                 imag.setIcon(id);
                 
@@ -163,7 +163,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        recibo.setBackground(new java.awt.Color(255, 255, 255));
+        recibo.setBackground(new java.awt.Color(0, 0, 0));
 
         TablaCompras.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
