@@ -199,9 +199,9 @@ public class Usuario extends javax.swing.JFrame {
         a=txtusuario.getText();
         b=txtcontrasena.getText();
 
-        if(a.equalsIgnoreCase("CellSolutions") && (b.equalsIgnoreCase("198814"))){
+        if(a.equalsIgnoreCase("usuario") && (b.equalsIgnoreCase("usuario"))){
             JOptionPane.showMessageDialog(null,"HA INGRESADO AL SISTEMA");
-            JOptionPane.showMessageDialog(null,"BIENVENIDO  Sr.Jorge Gordillo");
+            JOptionPane.showMessageDialog(null,"BIENVENIDO");
 
             MenudeOpciones f=new MenudeOpciones();
             f.setVisible (true);
@@ -253,7 +253,7 @@ public class Usuario extends javax.swing.JFrame {
         //       o = txtusuario.getText();
         //       b = txtcontrasena.getText();
         //
-        //        if(o.equalsIgnoreCase("mateo") && (b.equalsIgnoreCase("buestan"))){
+        //        if(o.equalsIgnoreCase("pablo") && (b.equalsIgnoreCase("crespo"))){
             //
             //
             //
