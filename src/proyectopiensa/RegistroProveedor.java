@@ -49,7 +49,7 @@ public class RegistroProveedor extends javax.swing.JFrame {
      public void verdatos(String valor){
     DefaultTableModel modelo = new DefaultTableModel(); 
     
-    modelo.addColumn("Id_Proveedor");
+    modelo.addColumn("Id_Proveedores");
     modelo.addColumn("Fecha");
     modelo.addColumn("Nombre del Proveedor");
     modelo.addColumn("Direccion");
@@ -434,7 +434,7 @@ public class RegistroProveedor extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
 
-            String Query= "INSERT INTO Proveedores (Id_Proveedor, Fecha, Nombre_Pro ,  Direccion, Telefono, Email, Productos) values(?,?,?,?,?,?,?)";
+            String Query= "INSERT INTO Proveedores (Id_Proveedores, Fecha, Nombre_Pro ,  Direccion, Telefono, Email, Productos) values(?,?,?,?,?,?,?)";
             PreparedStatement statement = coneccion.prepareStatement(Query);
 
             statement.setString(1,txtIdProveedor2.getText());
@@ -473,7 +473,7 @@ public class RegistroProveedor extends javax.swing.JFrame {
         String cod = "";
         cod = Tabla.getValueAt(fila,0).toString();
         try {
-            PreparedStatement pst= coneccion.prepareStatement("DELETE   from Proveedores Where Id_Proveedor = '"+txtIdProveedor2.getText()+"'");
+            PreparedStatement pst= coneccion.prepareStatement("DELETE   from Proveedores Where Id_Proveedores = '"+txtIdProveedor2.getText()+"'");
             int valor;
              valor = JOptionPane.showConfirmDialog(this, "DESEA ELIMINAR ESTE REGISTRO?", "ADVERTENCIA", JOptionPane.YES_NO_OPTION);
         if(valor == JOptionPane.YES_OPTION){
