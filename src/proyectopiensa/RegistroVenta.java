@@ -94,13 +94,13 @@ public class RegistroVenta extends javax.swing.JFrame {
             while(rs.next()){
                 datos [0] = rs.getString(1);
                 datos [1] = rs.getString(9);
-                 datos [2] = rs.getString(2);
-                 datos [3] = rs.getString(3);
-                  datos [4] = rs.getString(4);
-                   datos [5] = rs.getString(5);
-                    datos [6] = rs.getString(6);
-                     datos [7] = rs.getString(7);
-                      datos [8] = rs.getString(8);
+                datos [2] = rs.getString(2);
+                datos [3] = rs.getString(3);
+                datos [4] = rs.getString(4);
+                datos [5] = rs.getString(5);
+                datos [6] = rs.getString(6);
+                datos [7] = rs.getString(7);
+                datos [8] = rs.getString(8);
                       
                 
                     modelo.addRow(datos);
@@ -574,7 +574,7 @@ lbltotal.setText(String.valueOf(Math.round(total)));
             ResultSet rs=st.executeQuery("Select *from Clientes where Nombre ='"+ComboCliente.getSelectedItem()+"'");
             rs.next();
 
-            String Query= "INSERT INTO Ventas (Id_Producto, Fecha, Cliente, Descripcion, Modelo, Marca, Cantidad, Precio) values(?,?,?,?,?,?,?,?)";
+            String Query= "INSERT INTO Ventas (Id_Producto, Fecha, Cliente, Descripcion, Modelo, Marca, Cantidad, Precio, Total) values(?,?,?,?,?,?,?,?,?)";
             PreparedStatement statement = coneccion.prepareStatement(Query);
 
             statement.setString(1,txtId_Producto.getText());
@@ -585,6 +585,7 @@ lbltotal.setText(String.valueOf(Math.round(total)));
             statement.setString(6,txtModeloPro.getText());
             statement.setString(7,txtCantidadPro.getText());
             statement.setString(8,txtPrecioPro.getText());
+            statement.setString(9,lbltotal.getText());
 
             statement.executeUpdate();
 

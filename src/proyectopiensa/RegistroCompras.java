@@ -183,7 +183,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 204));
@@ -534,11 +534,17 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         pack();
@@ -583,7 +589,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             ResultSet rs=st.executeQuery("Select *from Proveedores where Nombre_Pro ='"+comboProveedor.getSelectedItem()+"'");
             rs.next();
 
-            String Query= "INSERT INTO Compras (Id_compra, fecha, proveedor, producto, Modelo, Marca, Cantidad, Precio) values(?,?,?,?,?,?,?,?)";
+            String Query= "INSERT INTO Compras (Id_compra, fecha, proveedor, producto, Modelo, Marca, Cantidad, Precio, Total) values(?,?,?,?,?,?,?,?,?)";
             PreparedStatement statement = coneccion.prepareStatement(Query);
 
             statement.setString(1,txtId_Compra.getText());
@@ -594,6 +600,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             statement.setString(6,txtModelo.getText());
             statement.setString(7,txtCantidad.getText());
             statement.setString(8,txtPrecio.getText());
+            statement.setString(9,lbltotal1.getText());
 
             statement.executeUpdate();
 
