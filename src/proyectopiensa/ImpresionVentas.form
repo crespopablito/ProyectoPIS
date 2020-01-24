@@ -65,7 +65,7 @@
                       <Component id="lbliva" min="-2" pref="106" max="-2" attributes="0"/>
                       <Component id="lbltotal" min="-2" pref="106" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="486" max="32767" attributes="0"/>
+                  <EmptySpace pref="884" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="jButton1" max="32767" attributes="0"/>
                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
@@ -98,7 +98,7 @@
                   <Component id="jLabel1" min="-2" pref="41" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
                   <Component id="logotipo" min="-2" pref="216" max="-2" attributes="0"/>
-                  <EmptySpace pref="131" max="32767" attributes="0"/>
+                  <EmptySpace pref="611" max="32767" attributes="0"/>
                   <Component id="btnVerVentas" min="-2" pref="31" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
@@ -263,7 +263,7 @@
               <Font name="Tahoma" size="18" style="3"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/logotipoCellSolutions/1.png"/>
+              <Image iconType="3" name="/logotipoCellSolutions/printer_78349.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="IMPRIMIR"/>
           </Properties>

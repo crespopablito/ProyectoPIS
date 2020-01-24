@@ -183,7 +183,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 204));
@@ -234,8 +234,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        btnGuardarVenta.setBackground(new java.awt.Color(0, 51, 255));
         btnGuardarVenta.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        btnGuardarVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/6.png"))); // NOI18N
+        btnGuardarVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/Save_37110.png"))); // NOI18N
         btnGuardarVenta.setText("GUARDAR VENTA");
         btnGuardarVenta.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -243,8 +244,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(0, 51, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/13.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/Go-back_36760.png"))); // NOI18N
         jButton1.setText("REGRESAR");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -252,8 +254,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        btnVerCompras.setBackground(new java.awt.Color(0, 51, 255));
         btnVerCompras.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        btnVerCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/15.png"))); // NOI18N
+        btnVerCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/buscar.png"))); // NOI18N
         btnVerCompras.setText("VER COMPRAS");
         btnVerCompras.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -267,8 +270,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        btnLimpiarVentas.setBackground(new java.awt.Color(0, 51, 255));
         btnLimpiarVentas.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        btnLimpiarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/15.png"))); // NOI18N
+        btnLimpiarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/3792081-broom-halloween-magic-witch_109049.png"))); // NOI18N
         btnLimpiarVentas.setText("LIMPIAR");
         btnLimpiarVentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -294,8 +298,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        btnBorrarVentas.setBackground(new java.awt.Color(0, 51, 255));
         btnBorrarVentas.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        btnBorrarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/12.png"))); // NOI18N
+        btnBorrarVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/36_104857.png"))); // NOI18N
         btnBorrarVentas.setText("ELIMINAR");
         btnBorrarVentas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -303,8 +308,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        btnSalirDelPrograma.setBackground(new java.awt.Color(0, 51, 255));
         btnSalirDelPrograma.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        btnSalirDelPrograma.setForeground(new java.awt.Color(255, 0, 0));
+        btnSalirDelPrograma.setForeground(new java.awt.Color(255, 255, 255));
         btnSalirDelPrograma.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/4.png"))); // NOI18N
         btnSalirDelPrograma.setText("SALIR DEL SISTEMA");
         btnSalirDelPrograma.addActionListener(new java.awt.event.ActionListener() {
@@ -313,8 +319,10 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
             }
         });
 
+        imag.setForeground(new java.awt.Color(0, 0, 0));
+
         jLabel1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("#FACTURA");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -322,7 +330,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
         jLabel7.setText("SUBTOTAL");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("PROVEEDOR");
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
@@ -341,8 +349,9 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
         jLabel3.setForeground(new java.awt.Color(0, 0, 204));
         jLabel3.setText("MARCA DEL PRODUCTO");
 
+        jButton2.setBackground(new java.awt.Color(0, 51, 255));
         jButton2.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/10.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/editar.png"))); // NOI18N
         jButton2.setText("MODIFICAR");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -364,7 +373,8 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
         jLabel11.setText("FECHA");
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 3, 24)); // NOI18N
-        jLabel12.setText("REGISTRO DE COMPRAS");
+        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel12.setText("REGISTRO INGRESOS");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -413,7 +423,7 @@ lbltotal1.setText(String.valueOf(Math.round(total)));
                                 .addGap(42, 42, 42))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 894, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 33, Short.MAX_VALUE))
+                        .addGap(0, 37, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(272, 272, 272)
                         .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 299, javax.swing.GroupLayout.PREFERRED_SIZE)

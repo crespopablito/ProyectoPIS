@@ -64,9 +64,10 @@ public class MenudeOpciones extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(0, 0, 0));
 
+        jButton7.setBackground(new java.awt.Color(0, 51, 255));
         jButton7.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton7.setForeground(new java.awt.Color(255, 0, 0));
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/4.png"))); // NOI18N
+        jButton7.setForeground(new java.awt.Color(255, 255, 255));
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/off.png"))); // NOI18N
         jButton7.setText("SALIR DEL SISTEMA");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,9 +75,10 @@ public class MenudeOpciones extends javax.swing.JFrame {
             }
         });
 
+        jButton2.setBackground(new java.awt.Color(0, 51, 255));
         jButton2.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 0, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/11.gif"))); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/business_application_addmale_useradd_insert_add_user_client_2312.png"))); // NOI18N
         jButton2.setText("CLIENTES");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -85,16 +87,17 @@ public class MenudeOpciones extends javax.swing.JFrame {
         });
 
         jLabel5.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("REGISTRAR COMPRAS");
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 3, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 51));
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("MENU DE OPCIONES");
 
+        jButton8.setBackground(new java.awt.Color(0, 51, 255));
         jButton8.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton8.setForeground(new java.awt.Color(0, 0, 255));
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/1.png"))); // NOI18N
+        jButton8.setForeground(new java.awt.Color(255, 255, 255));
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/printer_78349.png"))); // NOI18N
         jButton8.setText("IMPRIMIR");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,9 +105,10 @@ public class MenudeOpciones extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setBackground(new java.awt.Color(0, 51, 255));
         jButton3.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(0, 0, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/7.png"))); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/CartOK_icon-icons.com_51188.png"))); // NOI18N
         jButton3.setText("VENTAS");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -112,9 +116,10 @@ public class MenudeOpciones extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setBackground(new java.awt.Color(0, 51, 255));
         jButton6.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton6.setForeground(new java.awt.Color(255, 0, 0));
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/13.png"))); // NOI18N
+        jButton6.setForeground(new java.awt.Color(255, 255, 255));
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/Go-back_36760.png"))); // NOI18N
         jButton6.setText("REGRESAR");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -123,16 +128,17 @@ public class MenudeOpciones extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("REGISTRAR PROVEEDORES");
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("REGISTRAR CLIENTES");
 
+        jButton1.setBackground(new java.awt.Color(0, 51, 255));
         jButton1.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 0, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/11.gif"))); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/caja.png"))); // NOI18N
         jButton1.setText("PROVEEDORES");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -140,9 +146,10 @@ public class MenudeOpciones extends javax.swing.JFrame {
             }
         });
 
+        jButton4.setBackground(new java.awt.Color(0, 51, 255));
         jButton4.setFont(new java.awt.Font("Tahoma", 3, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(0, 0, 255));
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/7.png"))); // NOI18N
+        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/logotipoCellSolutions/Cartadd_icon-icons.com_51193.png"))); // NOI18N
         jButton4.setText("COMPRAS");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -151,11 +158,11 @@ public class MenudeOpciones extends javax.swing.JFrame {
         });
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("REGISTRAR VENTAS");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(51, 255, 255));
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("IMPRIMIR REPORTES");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -291,17 +298,17 @@ public class MenudeOpciones extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        RegistroProveedor rpro = new RegistroProveedor();
-        rpro.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         RegistroCompras rpro = new RegistroCompras();
         rpro.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton4ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        RegistroProveedor rpro = new RegistroProveedor();
+        rpro.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments

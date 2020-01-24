@@ -75,7 +75,7 @@
                   <Component id="jLabel1" min="-2" pref="42" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                   <Component id="lblIncio" min="-2" pref="271" max="-2" attributes="0"/>
-                  <EmptySpace pref="65" max="32767" attributes="0"/>
+                  <EmptySpace pref="545" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -94,7 +94,7 @@
               <Font name="Tahoma" size="14" style="3"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/logotipoCellSolutions/1.png"/>
+              <Image iconType="3" name="/logotipoCellSolutions/printer_78349.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="REGISTROS COMPRAS"/>
           </Properties>
@@ -127,7 +127,7 @@
               <Font name="Tahoma" size="14" style="3"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/logotipoCellSolutions/1.png"/>
+              <Image iconType="3" name="/logotipoCellSolutions/printer_78349.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="REGISTROS VENTAS"/>
           </Properties>
